@@ -15,6 +15,10 @@ New vocabulary passes through six stages. Each stage runs only when the user ask
 
 The vault stays flat. There are no hub notes and no fixed taxonomy. Community membership is discovered per batch and stored on each note as a `Community: BATCH_<centerword>` label. A small set of protected classes (countries, body parts, weekdays and similar closed sets) is kept together through a sparse backbone of same-class links instead of being split by Leiden.
 
+The Obsidian graph view below shows the result. Each island is one community, such as the shopping cluster around `das Geschäft`, the time adverbs around `zurzeit`, the stationery cluster around `das Heft`, and the country backbone on the left. Colors mark CEFR levels.
+
+![Obsidian graph view of the vocabulary vault](docs/graph-view.png)
+
 ## Installation
 
 ```bash
