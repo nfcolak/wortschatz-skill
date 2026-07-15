@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+.DS_Store
+# Embedding cache artifacts (never committed; live next to the vault anyway)
+vault_embeddings_*.json
+vault_embeddings_*.npy
+vault_embeddings_*.faiss

@@ -1,0 +1,8 @@
+numpy
+python-igraph
+leidenalg
+# Local embedding backend (default). Not needed if you use an HTTP
+# provider via WORT_EMBEDDING_PROVIDER / WORT_EMBEDDING_API_URL.
+sentence-transformers
+# Optional: fast similarity index for the embedding cache.
+faiss-cpu
